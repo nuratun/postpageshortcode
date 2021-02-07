@@ -1,0 +1,100 @@
+.grid_container {
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid_list {
+  padding: 15px;
+  border: 1px solid #cecece;
+}
+
+.grid_excerpt {
+  margin: auto auto;
+  padding: 5px 5px;
+}
+
+.grid_excerpt p {
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.grid_date {
+  font-size: 8px;
+  text-transform: lowercase;
+}
+
+.grid_list img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.masonry_container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.masonry_list {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+   display: inline-block;
+   width: 100%;
+   border: solid 2px black;
+   padding: 5px;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+   border-radius: 5px;
+}
+
+.masonry_list img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+}
+
+.masonry_excerpt {
+  margin: auto auto;
+  padding: 5px 5px;
+}
+
+.masonry_excerpt p {
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.masonry_date {
+  font-size: 8px;
+  text-transform: lowercase;
+}
+
+.title {
+  color: #cecece;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.pagination {
+  clear: both;
+  display: block;
+  width: 100%;
+  margin: 20px 30px;
+}
+
+.pagination a {
+  color: rgb(102, 26, 26);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: rgb(102, 26, 26);
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: white;
+}
